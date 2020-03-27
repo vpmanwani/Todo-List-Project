@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	//check of f specific todos by clicking
+	//check of specific todos by clicking
 	$("ul").on("click", "li", function(){
 		$(this).toggleClass("completed");
 	});	
